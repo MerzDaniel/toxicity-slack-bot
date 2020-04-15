@@ -8,7 +8,7 @@ const app = new App({
 });
 
 app.message(({ message, say }) => {
-  console.log(`Got msg ${message.message}`)
+  console.log(`Got msg ${message.text}`)
 });
 
 (async () => {
